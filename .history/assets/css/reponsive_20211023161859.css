@@ -163,10 +163,12 @@
     .copyright-info {
         flex-direction: column;
         padding-bottom: 10px;
-        text-align: center;
+        margin: 0 auto;
     }
 
-   
+    #copyright .web-name p {
+        margin-bottom: 0;
+    }
 }
 
 @media screen and (max-width: 520.98px) {
