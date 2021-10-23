@@ -1,0 +1,42 @@
+.float-right{
+    float: right;
+}
+.text-center{
+    text-align: ;
+}
+.container {
+    max-width: 1150px;
+    margin: 0px auto;
+
+
+}
+
+.flex-space {
+    display: flex;
+    justify-content: space-between;
+}
+
+.align-i-center {
+    align-items: center;
+}
+
+.mg-top-30 {
+    margin-top: 30px;
+}
+
+.mg-top-22 {
+    margin-top: 22px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.bg-black {
+
+    background-color: #131619;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}

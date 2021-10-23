@@ -1,0 +1,8 @@
+@media screen  and (max-width:767.98px){
+    .header-bottom .red-colum {
+        display: none;
+    }
+    #menu{
+        display: none;
+    }
+}

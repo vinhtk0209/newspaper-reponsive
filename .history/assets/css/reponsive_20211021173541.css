@@ -1,0 +1,96 @@
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1200px) {
+
+  
+    #content .wp-content-top,
+    .wp-content-middle {
+        padding: 0 15px;
+    }
+    #footer-info{
+        padding: 50px 15px;
+    }
+
+    #news {
+
+        flex-flow: row wrap;
+      
+        justify-content: space-around;
+
+    }
+
+    .wp-content-top article {
+        display: flex;
+        flex-basis: 33%;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+    }
+
+    .wp-content-middle {
+        flex-direction: column;
+        padding-right: 40px;
+    }
+
+    .wp-content-topic-middle-right {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .wp-content-topic-middle-right .ads {
+        flex-grow: 1;
+    }
+
+    .wp-content-topic-middle-right .list-topic {
+        flex-grow: 1;
+    }
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+    .header-bottom .red-colum,
+    #menu,
+    .header-bottom .red-colum {
+        display: none;
+    }
+
+    .header-top-bar {
+        display: block;
+    }
+}
+
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px) {
+    #news {
+
+        flex-direction: column;
+      
+
+    }
+     #news article{
+       
+        flex-direction: row;
+    }
+
+    .wp-content-top article .images-content-top {
+        padding-right: 15px;
+    }
+
+}
+@media screen and (max-width: 601.98px) {
+   /* #footer-info .wp-footer-info{
+        flex-direction: column;
+   } */
+}
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 580.98px) {
+    .header-top form {
+        display: none;
+    }
+}
+
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px) {}
+
+/*Smart phone nhỏ*/
+@media screen and (max-width: 240px) {}

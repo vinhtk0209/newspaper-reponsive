@@ -1,0 +1,39 @@
+@media screen  and (max-width:767.98px){
+    .header-bottom .red-colum,
+    #menu,
+    .header-bottom .red-colum
+    {
+        display: none;
+    }
+    .header-top-bar{
+        display: block;
+    }
+}
+@media screen  and (max-width:375.98px){
+    .header-top form{
+        display: none;
+    }
+}
+/*Background mặc định của body*/
+body{ background: #fff;}
+
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1024px){
+    body{ background: black;}
+}
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px){
+    body{ background: red;}
+}
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 480px){
+    
+}
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px){
+    
+}
+/*Smart phone nhỏ*/
+@media screen and (max-width: 240px){
+    
+}

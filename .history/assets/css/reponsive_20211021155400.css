@@ -1,0 +1,65 @@
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1200px) {
+
+    #content .wp-content-top,
+    .wp-content-middle {
+        padding: 0 15px;
+    }
+
+    #news,
+    .wp-content-middle {
+
+        flex-flow: row wrap;
+
+
+    }
+
+    .wp-content-top article {
+        display: flex;
+
+    }
+
+    .wp-content-top article .images-content-top {
+        padding-right: 15px;
+    }
+
+    .wp-content-topic-middle-right {
+        
+     display: flex;
+     justify-content: space-between;
+        
+    }
+    .wp-content-topic-middle-right .ads {
+    
+    }
+    .wp-content-topic-middle-right .list-topic {
+        flex-basis: 45%;
+    }
+}
+
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px) {
+
+    .header-bottom .red-colum,
+    #menu,
+    .header-bottom .red-colum {
+        display: none;
+    }
+
+    .header-top-bar {
+        display: block;
+    }
+}
+
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 580.98px) {
+    .header-top form {
+        display: none;
+    }
+}
+
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px) {}
+
+/*Smart phone nhỏ*/
+@media screen and (max-width: 240px) {}
