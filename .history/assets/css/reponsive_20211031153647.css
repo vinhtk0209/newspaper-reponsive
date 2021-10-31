@@ -170,7 +170,8 @@
 
 @media screen and(max-width: 600.98px) {
     .clock {
-        margin-left:20px;
+        top: 15px;
+        left: 60%;
     }
 
 }

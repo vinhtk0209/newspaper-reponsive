@@ -20,7 +20,16 @@ ul {
     height:auto;
 } */
 /* HEADER */
-
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #17d4fe;
+    font-size: 60px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+  }
 .header {
     /* min-height: 120px; */
     background-color: #23282d;
@@ -34,16 +43,7 @@ ul {
     padding-left: 15px;
     padding-right: 15px;
 }
-.clock {
-    position: absolute;
-    top: 15px;
-    left: 55%;
-    transform: translateX(-50%) ;
-    color: #17d4fe;
-    font-size: 2rem;
-    letter-spacing: 5px;
-    z-index: 1000;
-  }
+
 
 
 .header-top-bar {

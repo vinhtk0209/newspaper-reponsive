@@ -166,15 +166,11 @@
     }
 
 
-}
-
+} top: 15px;
+left: 55%;
 @media screen and(max-width: 600.98px) {
-    .clock {
-        margin-left:20px;
-    }
-
+    
 }
-
 @media screen and (max-width: 520.98px) {
     .wp-content-top article a.title {
         font-size: 15px;

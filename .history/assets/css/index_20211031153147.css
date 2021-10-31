@@ -36,9 +36,9 @@ ul {
 }
 .clock {
     position: absolute;
-    top: 15px;
-    left: 55%;
-    transform: translateX(-50%) ;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
     color: #17d4fe;
     font-size: 2rem;
     letter-spacing: 5px;
